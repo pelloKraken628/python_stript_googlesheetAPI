@@ -1,9 +1,5 @@
 #import all the packages
-import imaplib, email, requests, quopri, re
-import gspread
-import time
-import json
-import smtplib
+import imaplib, email, requests, quopri, re, gspread, time, json, smtplib
 from google.oauth2 import service_account
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
